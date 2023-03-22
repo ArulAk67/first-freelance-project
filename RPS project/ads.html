@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>  Acting Drivers  </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="images/logo.png" >
+    <link rel="stylesheet" href="css/_style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+          <img src="images/logo.png" alt="logo">
+      </div>
+      <input type="checkbox" id="nav_check" hidden>
+      <nav>
+          <ul>
+              <li>
+                  <a href="index.html">Home</a>
+              </li>
+              <li>
+                  <a href="ss.html">Security Service</a>
+              </li>
+              <li>
+                  <a href="ads.html">Acting Drivers</a>
+              </li>
+              <li>
+                  <a href="about.html">About</a>
+              </li>
+              <li>
+                   <a href="tel:805-679-4904" class="active"><i class="fa fa-phone" aria-hidden="true">Call</i></a>
+                  
+              </li>
+          </ul>
+      </nav>
+      <label for="nav_check" class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+      </label>
+
+  </header>
+
+      <div class="container">
+        <div class="box">
+            <strong>ACTING DRIVER SERVICE</strong><br>
+            <p  class="brand">RPS</p>
+            <button onclick="popup()">For Booking</button>
+        </div>
+      </div>
+      
+
+       <div class="popup" id="popup-1">
+        <div class="overlay"></div>
+        <div class="content_popup">
+            <div class="close-btn" onclick="popup()">&times;</div>
+             <section>
+              <a href="tel:805-679-4904" class="active"><i class="fa fa-phone" aria-hidden="true">call 1:+918056794904</i></a>
+              <a href="tel:812-438-9523" class="active"><i class="fa fa-phone" aria-hidden="true">Call 2:+918124389523</i></a>
+             </section>
+        </div>
+       </div>
+
+
+
+      <div class="middle">
+         <div class="text">
+           <strong>Acting Driver Service</strong>
+           <ul>
+            <li>24/7 Service</li>
+            <li>All type Car Driver are Available</li>
+            <li>Well Experience Drivers</li>
+           </ul>
+         </div>
+         <div class="links">
+           <a href="about.html">For more details..</a>
+         </div>
+      </div>
+     
+    <footer class="footer">
+      <div class="f_container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>About Us</h4>
+            <p>
+              Since 2022,We started RPS Security Service with Vallet Parking Service<br>
+              Andso We are offering Acting Driver Service.<br>
+              Till data we are running our company sucessfully. 
+            </p>
+          </div>
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="ss.html">Security Service</a></li>
+              <li><a href="ads.html">Acting Drivers</a></li>
+              <li><a href="about.html">About</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contact Us</h4>
+            <ul>
+              <li><i class="fa fa-map-marker"> </i> No.4 M, Saminathapuram<br>  &nbsp;&nbsp; Periyar Colony<br> &nbsp;&nbsp; 15 velampalayam<br> &nbsp;&nbsp; Tirupur-641 651</li>
+              <li><i class="fa fa-phone"></i>  +91 8056794904<br>    &nbsp;&nbsp;&nbsp;   +91 8124389523</li>
+              <li><i class="fa fa-envelope"></i>  &nbsp;periyasamy391479@gmail.com</li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+              <a href="https://www.facebook.com/periyasamysangeetha.sangeetha"><i class="fab fa-facebook-f"></i></a>
+              <a href="mailto:periyasamy391479@gmail.com"><i class="fa fa-envelope"></i></a>
+              <a href="https://www.instagram.com/periyasamysangeethasangeetha/"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.youtube.com/@rpsactingservices"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+   </footer>
+
+  </body>
+  <script>
+    function popup()
+  {
+    document.getElementById("popup-1").classList.toggle("active");
+  }
+  </script>
+</html>
